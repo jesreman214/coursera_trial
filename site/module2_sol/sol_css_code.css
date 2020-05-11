@@ -1,0 +1,150 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #D3E1B4;
+}
+h1 {
+  margin-top: 15px;
+  font-size: 12vw;
+  text-align: center;
+
+}
+div{
+  border: 1px solid black;
+
+}
+h2{
+  float: left;
+  border: 1px solid black;
+  position: relative;
+  left: 200px;
+  background-color: #C8A3FF;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+  margin-right: 20px;
+}
+
+p {
+ 
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  overflow: auto;
+}
+
+#p1{
+  background-color: #FAB1A0;
+}
+
+#p2
+{
+  margin-top: 60px;
+  background-color: #A3DAFF;
+  margin-right: 30px;
+  clear: left;
+  margin-left: 20px;
+}
+#p3{
+  background-color: #81CFB9;
+}
+#hey{
+  margin-right: 30px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9, .bg10, .bg11, .bg12 {
+    float: left;
+  
+  }
+  .bg1 {
+    width: 8.33%;
+  }
+  .bg2 {
+    width: 16.66%;
+  }
+  .bg3 {
+    width: 25%;
+  }
+  .bg4 {
+    width: 33.33%;
+  }
+  .bg5 {
+    width: 41.66%;
+  }
+  .bg6 {
+    width: 50%;
+  }
+  .bg7 {
+    width: 58.33%;
+  }
+  .bg8 {
+    width: 66.66%;
+  }
+  .bg9 {
+    width: 74.99%;
+  }
+  .bg10 {
+    width: 83.33%;
+  }
+  .bg11 {
+    width: 91.66%;
+  }
+  .bg12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .md1, .md2, .md3, .md4, .md5, .md6, .md7, .md8, .md9, .md10, .md11, .md12 {
+    float: left;
+    }
+  .md1 {
+    width: 8.33%;
+  }
+  .md2 {
+    width: 16.66%;
+  }
+  .md3 {
+    width: 25%;
+  }
+  .md4 {
+    width: 33.33%;
+  }
+  .md-5 {
+    width: 41.66%;
+  }
+  .md6 {
+    width: 50%;
+  }
+  .md7 {
+    width: 58.33%;
+  }
+  .md8 {
+    width: 66.66%;
+  }
+  .md9 {
+    width: 74.99%;
+  }
+  .md10 {
+    width: 83.33%;
+  }
+  .md11 {
+    width: 91.66%;
+  }
+  .md12 {
+    width: 100%;
+  }
+}
