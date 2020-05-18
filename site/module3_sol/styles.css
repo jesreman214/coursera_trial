@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #FDFEFE ;
+  color: #fff;
   background-color: #A2D9CE ;
   font-family: 'Oxygen', sans-serif;
 
@@ -108,7 +108,7 @@ h1{
   font-size: 1.6em;
   text-transform: uppercase;
   background-color: #000;
-  color: #FDFEFE;
+  color: #fff;
   opacity: .8;
 }
 
